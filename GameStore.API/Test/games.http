@@ -1,0 +1,34 @@
+### Create Game - POST Request
+POST http://localhost:5180/games
+Content-Type: application/json
+
+{
+  "name": "Final Fantasy XIV",
+  "genre": "Role-Playing",
+  "price": 59.99,
+  "releaseDate": "2010-09-30"
+}
+
+### Get All Games
+GET http://localhost:5180/games
+
+
+### Get Game by Id
+GET http://localhost:5180/games/1
+
+
+### Update Game
+PUT http://localhost:5180/games/1
+Content-Type: application/json
+
+{
+   "id": 1,
+  "name": "Final Fantasy Updated",
+  "genre": "Role-Playing",
+  "price": 59.99,
+  "releaseDate": "2010-09-30"
+}
+
+
+### Delete Game
+DELETE http://localhost:5180/games/1
