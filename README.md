@@ -1,4 +1,4 @@
-
+# GameStore
 
 A comprehensive overview of the GameStore API project, including:
 
